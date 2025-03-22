@@ -1,0 +1,22 @@
+What is std::array?
+
+Is a container
+- in general programming, it's an object that can hold other objects
+- in C++, only class types in Containers library is considered a container.
+
+Is an aggregate
+Array or class with:
+- No user-declared constructors
+- No private or protected non-static data members
+- no base clasees
+- no virtual functions
+
+Encapsulates fixed size arrays
+- 
+
+Why?
+- More efficient in small arrays (?)
+- We can use constexpr in larger context (?). constexpr basically means it can be computed during compile time. We don't need to do it during runtime. Means it's faster to execute!
+
+# stopped at aggregate initialization of std array.
+https://www.learncpp.com/cpp-tutorial/introduction-to-stdarray/
